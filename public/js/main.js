@@ -3,5 +3,8 @@ function dropdownmenu(menu) {
       $('.'+menu+'-icon').toggleClass('rotate-icon')
 }
 
-var hai = $('#coba').val()
-console.log(hai)
+function show_absolute(kelas) {
+      console.log('hai')
+      $('.'+kelas+'-menu').toggleClass('hidden')
+      $('.'+kelas+'-icon').toggleClass('rotate-icon')
+}
